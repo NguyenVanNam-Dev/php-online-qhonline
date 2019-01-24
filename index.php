@@ -2,11 +2,7 @@
 if (isset($_GET['controller'])) {
  	switch ($_GET['controller']) {
  		case 'user':
- 			require "controller/user/controller.php";
- 			break;
- 		
- 		default:
- 			# code...
+ 			require "controllers/user/controller.php";
  			break;
  	}
  }else {

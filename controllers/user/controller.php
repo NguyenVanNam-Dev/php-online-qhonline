@@ -1,11 +1,11 @@
 <?php
 if (isset($_GET['action'])) {
  	switch ($_GET['action']) {
- 		case 'user':
- 			require "controller/user/add.php";
+ 		case 'add':
+ 			require "controllers/user/add.php";
  			break;
  		case 'list':
- 			require "controller/user/list.php";
+ 			require "controllers/user/list.php";
  			break;
  	}
  }else {
